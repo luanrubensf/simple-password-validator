@@ -10,7 +10,11 @@
   },
   "main": "dist/password-validator.js",
   "module": "src/index.js",
-  "author": "Luan Figueredo",
+  "author": "Luan Figueredo <luanrubensf@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "simple;password;validator"
+  ],
   "dependencies": {
     "angular": "^1.5.0"
   },
