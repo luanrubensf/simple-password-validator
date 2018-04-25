@@ -1,12 +1,13 @@
 {
   "name": "simple-password-validator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Hephaestus password validator",
   "scripts": {
     "build": "rimraf dist && webpack --bail --progress --profile"
   },
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": "https://github.com/luanrubensf/simple-password-validator"
   },
   "main": "dist/password-validator.js",
   "module": "src/index.js",

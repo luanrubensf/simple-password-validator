@@ -1,0 +1,9 @@
+language: javascript
+
+node_js:
+  - stable
+
+install:
+  - npm install
+
+script:
