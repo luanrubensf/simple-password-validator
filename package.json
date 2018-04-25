@@ -1,5 +1,5 @@
 {
-  "name": "password-validator",
+  "name": "simple-password-validator",
   "version": "0.0.1",
   "description": "Hephaestus password validator",
   "scripts": {
@@ -13,7 +13,9 @@
   "author": "Luan Figueredo <luanrubensf@gmail.com>",
   "license": "MIT",
   "keywords": [
-    "simple;password;validator"
+    "simple",
+    "password",
+    "validator"
   ],
   "dependencies": {
     "angular": "^1.5.0"
