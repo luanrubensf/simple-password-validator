@@ -1,6 +1,6 @@
 {
   "name": "simple-password-validator",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Hephaestus password validator",
   "scripts": {
     "build": "rimraf dist && webpack --bail --progress --profile"
