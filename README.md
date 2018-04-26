@@ -5,9 +5,7 @@
 Simple password validator module to AngularJs.
 
 The password validator is implemented to require at least:
-    * 1 uppercase character
-    * 1 lowercase character
-    * 1 digit
+
 * 1 uppercase character
 * 1 lowercase character
 * 1 digit
