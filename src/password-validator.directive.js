@@ -13,7 +13,7 @@ export default class AppPasswordValidator {
     link(scope, element, attributes, ngModel) {
         let regex = DEFAULT_REGEX;
         if (scope.passwordRegex) {
-            regex = new RegExp(scope.passwordRegex);
+            regex = new RegExp(scope.passwordRegex, 'g');
         }
         ngModel.$validators.passswordValidator = (modelValue) => {
             return modelValue && modelValue.match(regex);
