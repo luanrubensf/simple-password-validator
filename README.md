@@ -4,11 +4,9 @@
 
 Simple password validator module to AngularJs.
 
-The password validator is implemented to require at least:
-
-* 1 uppercase character
-* 1 lowercase character
-* 1 digit
+We have 2 directives in this package:
+* app-password-match
+* app-password-validator
 
 ## How to use
 
@@ -34,6 +32,16 @@ Use in the inputs tags:
 
 ```
 
-## Future work
+### app-password-match
 
-- Allow the developer to pass another regex to the validator, in order to change the rules
+This directive can be aplied to the match password. It receives a parameter called ```password``` to verify if it matches to the ```ng-model```.
+
+### app-password-validator
+
+The default validator regex is able to validate the fallowing rules:
+
+* 1 uppercase character
+* 1 lowercase character
+* 1 digit
+
+It's possible to pass the ```password-regex``` param, in order to specify a new regex rule to the password validar.
